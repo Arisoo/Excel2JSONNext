@@ -1,11 +1,11 @@
 # Excel2JSONNext
-json and cs class files generation from xlsx files
+json and cs class files generation from xlsx files  <br>
 WPF and Avalonia Example
 
 # package and framework
-.Net 8.0 - Application Main Platform
-Newtonsoft.Json - JSON Serialization
-ExcelDataReader - Excel Document Reader
-CommunityToolkit.Mvvm - Mvvm Framework for .Net
-WPF - Window Presentation Framework for Windows Only
-Avalonia - WPF Like Cross Platform Presentation Framework
+.Net 8.0 - Application Main Platform  <br>
+Newtonsoft.Json - JSON Serialization  <br>
+ExcelDataReader - Excel Document Reader  <br>
+CommunityToolkit.Mvvm - Mvvm Framework for .Net  <br>
+WPF - Window Presentation Framework for Windows Only <br> 
+Avalonia - WPF Like Cross Platform Presentation Framework  <br>
