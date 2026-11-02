@@ -1,0 +1,16 @@
+{
+	"AES_Key": "",
+	"AES_Iv": "",
+	"LastExport_JSON_Path": "./json",
+	"LastExport_Excel_Path": "./xlsx",
+	"LastExport_Class_Path": "./cs",
+	"Files": [
+		{
+			"filename": "dt_inheritancefactor.xlsx",
+			"clsname": "DT_InheritanceFactor"
+		}
+	],
+	"NameSpace": "Common.DataTables",
+	"SeetNodeBaseClassName": "",
+	"ContainerBaseClassName": ""
+}

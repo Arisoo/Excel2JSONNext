@@ -1,0 +1,114 @@
+{
+	"primes": [
+		{
+			"keyidx": 1,
+			"namekey": "inhfactor_atk1 \"따옴표 테스트\"",
+			"bgimg_large": "sprites/inhfactor/inhfactor_ms_bg_large",
+			"bgimg_mid": "sprites/inhfactor/inhfactor_ms_bg_mid",
+			"bgimg_small": "sprites/inhfactor/inhfactor_ms_bg_small",
+			"icon": "todo",
+			"activeproc": "todo",
+			"gathercondition": "todo",
+			"grade": 1,
+			"upnext": 2
+		},
+		{
+			"keyidx": 2,
+			"namekey": "inhfactor_atk2",
+			"bgimg_large": "sprites/inhfactor/inhfactor_ms_bg_large",
+			"bgimg_mid": "sprites/inhfactor/inhfactor_ms_bg_mid",
+			"bgimg_small": "sprites/inhfactor/inhfactor_ms_bg_small",
+			"icon": "todo",
+			"activeproc": "todo",
+			"gathercondition": "todo",
+			"grade": 2,
+			"upnext": 3
+		},
+		{
+			"keyidx": 3,
+			"namekey": "inhfactor_atk3",
+			"bgimg_large": "sprites/inhfactor/inhfactor_ms_bg_large",
+			"bgimg_mid": "sprites/inhfactor/inhfactor_ms_bg_mid",
+			"bgimg_small": "sprites/inhfactor/inhfactor_ms_bg_small",
+			"icon": "todo",
+			"activeproc": "todo",
+			"gathercondition": "todo",
+			"grade": 3,
+			"upnext": 0
+		},
+		{
+			"keyidx": 11,
+			"namekey": "inhfactor_def1",
+			"bgimg_large": "sprites/inhfactor/inhfactor_ms_bg_large",
+			"bgimg_mid": "sprites/inhfactor/inhfactor_ms_bg_mid",
+			"bgimg_small": "sprites/inhfactor/inhfactor_ms_bg_small",
+			"icon": "todo",
+			"activeproc": "todo",
+			"gathercondition": "todo",
+			"grade": 1,
+			"upnext": 12
+		},
+		{
+			"keyidx": 12,
+			"namekey": "inhfactor_def2",
+			"bgimg_large": "sprites/inhfactor/inhfactor_ms_bg_large",
+			"bgimg_mid": "sprites/inhfactor/inhfactor_ms_bg_mid",
+			"bgimg_small": "sprites/inhfactor/inhfactor_ms_bg_small",
+			"icon": "todo",
+			"activeproc": "todo",
+			"gathercondition": "todo",
+			"grade": 2,
+			"upnext": 13
+		},
+		{
+			"keyidx": 13,
+			"namekey": "inhfactor_def3",
+			"bgimg_large": "sprites/inhfactor/inhfactor_ms_bg_large",
+			"bgimg_mid": "sprites/inhfactor/inhfactor_ms_bg_mid",
+			"bgimg_small": "sprites/inhfactor/inhfactor_ms_bg_small",
+			"icon": "todo",
+			"activeproc": "todo",
+			"gathercondition": "todo",
+			"grade": 3,
+			"upnext": 0
+		}
+	],
+	"captions": [
+		{
+			"keystring": "inhfactor_atk1_explain",
+			"str_ko": "공1",
+			"str_eng": "atk1",
+			"str_jp": "功-1"
+		},
+		{
+			"keystring": "inhfactor_atk2_explain",
+			"str_ko": "공2",
+			"str_eng": "atk2",
+			"str_jp": "功-2"
+		},
+		{
+			"keystring": "inhfactor_atk3_explain",
+			"str_ko": "공3",
+			"str_eng": "atk3",
+			"str_jp": "功-3"
+		},
+		{
+			"keystring": "inhfactor_def1_explain",
+			"str_ko": "방1",
+			"str_eng": "def1",
+			"str_jp": "防-1"
+		},
+		{
+			"keystring": "inhfactor_def2_explain",
+			"str_ko": "방2",
+			"str_eng": "def2",
+			"str_jp": "防-2"
+		},
+		{
+			"keystring": "inhfactor_def3_explain",
+			"str_ko": "방3",
+			"str_eng": "def3",
+			"str_jp": "防-3"
+		}
+	]
+}
