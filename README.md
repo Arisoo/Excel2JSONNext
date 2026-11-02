@@ -2,6 +2,11 @@
 json and cs class files generation from xlsx files  <br>
 WPF and Avalonia Example
 
+# IDE
+.Net 8.0  <br>
+Microsoft Visual Studio Community 2022 (64-bit) - 17.14.35 (June 2026)  <br>
+
+
 # package and framework
 .Net 8.0 - Application Main Platform  <br>
 Newtonsoft.Json - JSON Serialization  <br>
