@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37411.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Excel2JSONNext", "Excel2JSONNext.shproj", "{6CA94937-AD79-43DC-B9A6-CFCEF2998BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel2JSONNext.WPF", "Excel2JSONNext.WPF\Excel2JSONNext.WPF.csproj", "{36E996DE-F8C3-4ED9-85E0-58BCFFB39D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel2JSONCoreLib", "Excel2JSONCoreLib\Excel2JSONCoreLib.csproj", "{4B475A5A-ABF3-46F2-A3E4-6049431EEDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel2JSONNext.Avalonia", "Excel2JSONNext.Avalonia\Excel2JSONNext.Avalonia.csproj", "{7954F90E-429E-4F43-B1BA-B4672C53EB17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E996DE-F8C3-4ED9-85E0-58BCFFB39D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E996DE-F8C3-4ED9-85E0-58BCFFB39D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E996DE-F8C3-4ED9-85E0-58BCFFB39D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E996DE-F8C3-4ED9-85E0-58BCFFB39D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B475A5A-ABF3-46F2-A3E4-6049431EEDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B475A5A-ABF3-46F2-A3E4-6049431EEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B475A5A-ABF3-46F2-A3E4-6049431EEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B475A5A-ABF3-46F2-A3E4-6049431EEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7954F90E-429E-4F43-B1BA-B4672C53EB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7954F90E-429E-4F43-B1BA-B4672C53EB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7954F90E-429E-4F43-B1BA-B4672C53EB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7954F90E-429E-4F43-B1BA-B4672C53EB17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5A27D0A-2792-40F0-89B2-9D871241E9F7}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Excel2JSONNext.projitems*{6ca94937-ad79-43dc-b9a6-cfcef2998bf8}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		 Height="450" Width="800"
+		xmlns:vm="using:Excel2JSONCoreLib.ViewModels"
+		x:DataType="vm:MainWindowViewModel"
+		
+        x:Class="Excel2JSONNext.Avalonia.Views.JSONConvertWindow"
+        Title="Excel2JSON Next (must use Newtonsoft.Json , com.unity.nuget.newtonsoft-json)">
+	<Design.DataContext>
+		<!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+		<vm:MainWindowViewModel />
+	</Design.DataContext>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition Width="78*"/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="9*"/>
+			<RowDefinition Height="415*"/>
+			<RowDefinition Height="10*"/>
+		</Grid.RowDefinitions>
+		<TabControl x:Name="tabControl" Grid.Column="1" Grid.Row="1">
+			<TabItem Header="일괄 처리">
+				<Grid Background="#FFE5E5E5">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="12*"/>
+						<ColumnDefinition Width="755*"/>
+						<ColumnDefinition Width="7*"/>
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="15"/>
+						<RowDefinition Height="115"/>
+						<RowDefinition Height="250*"/>
+						<RowDefinition Height="7*"/>
+					</Grid.RowDefinitions>
+					<Label Grid.Column="1" Content="from Excels" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="72" Grid.Row="1"/>
+					<Label Grid.Column="1" Content="to JSON" HorizontalAlignment="Left" Margin="17,26,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="55"/>
+					<Label Content="to Classes" HorizontalAlignment="Left" Margin="7,54,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="64"/>
+					<TextBox Text="{Binding XlsxFolder}" Grid.Column="1" HorizontalAlignment="Left" Margin="77,4,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="553" Height="22"/>
+					<TextBox Text="{Binding JsonFolder}" Grid.Column="1" HorizontalAlignment="Left" Margin="77,31,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="553" Height="22"/>
+					<TextBox Text="{Binding ClsFolder}" Grid.Column="1" HorizontalAlignment="Left" Margin="77,58,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="508" Height="22"/>
+					<Label Content="namespace" HorizontalAlignment="Left" Margin="1,85,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="71"/>
+					<TextBox Text="{Binding NamespaceForClasses}" Grid.Column="1" HorizontalAlignment="Left" Margin="77,89,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="22"/>
+					<Button Grid.Column="1" Content="..." HorizontalAlignment="Left" Margin="635,6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="30" Height="20"/>
+					<Button Grid.Column="1" Content="..." HorizontalAlignment="Left" Margin="635,32,0,0" Grid.Row="1" VerticalAlignment="Top" Width="30" Height="20"/>
+					<Button Grid.Column="1" Content="..." HorizontalAlignment="Left" Margin="590,60,0,0" Grid.Row="1" VerticalAlignment="Top" Width="30" Height="20"/>
+					<TextBox x:Name="logs" IsReadOnly="True" Text="{Binding LogText}" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" AcceptsReturn="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
+					<Button x:Name="ExportJSON" Grid.Column="1" Content="Export JSON" HorizontalAlignment="Left" Margin="635,60,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90" Height="20" 
+							Command="{Binding ExportJSONCommand}" />
+					<Button Grid.Column="1" Content="Export C# claases" HorizontalAlignment="Left" Margin="435,90,0,0" Grid.Row="1" VerticalAlignment="Top" Width="105" Height="20"
+							Command="{Binding ExportClassesCommand}"/>
+					<Button Grid.Column="1" Content="Export All" HorizontalAlignment="Left" Margin="545,91,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90" Height="20"
+							Command="{Binding ExportAllCommand}"
+							/>
+				</Grid>
+			</TabItem>
+		</TabControl>
+
+	</Grid>
+</Window>
